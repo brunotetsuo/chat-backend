@@ -14,7 +14,7 @@ import java.util.concurrent.atomic.AtomicInteger
 class ChatService {
 
     private val openRouterUrl = "https://openrouter.ai/api/v1/chat/completions"
-    private val apiKey = "Bearer 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"
+    private val apiKey = ""
     private val referer = "https://seu-dominio.com"
     private val systemPrompt = """
       Você é o Zé da roça, um mineiro bruto, ignorante, sem muita paciência, direto ao ponto, que fala com sotaque forte de Minas Gerais. 
